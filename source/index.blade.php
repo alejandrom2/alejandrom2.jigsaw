@@ -253,7 +253,7 @@
                     </div>
                 </div>
             </div>
-            <div class="section section-navbars">
+            {{-- <div class="section section-navbars">
                 <div class="container" id="menu-dropdown">
                     <div class="row">
                         <div class="col-md-6">
@@ -552,7 +552,7 @@
                         <!-- End Navbar Transparent-->
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <!-- End .section-navbars  -->
             <div class="section section-tabs">
                 <div class="container">

@@ -1,0 +1,111 @@
+.section-background{
+    background-image: url('/img/beach.fade.jpg');
+    background-image: url('/img/beach.fade.webp');
+    background-size: cover; 
+    background-position: top center; 
+    min-height: 700px;
+}
+
+.section-padding-115{
+    padding-top: 115px;
+}
+.page-header{
+	.page-header-image{
+		background-image: url('/img/trees.header.jpeg');
+		background-image: url('/img/trees.header.webp');
+	}
+	.container{
+        > .content-right{
+
+            position: absolute;
+            display: block;
+            -ms-transform: translate( 0%,50%);
+            -webkit-transform: translate(0%, 50%);
+            transform: translate(0%, 50%);
+            text-align: right;
+            bottom: 50%;
+            color: #FFFFFF;
+            right: 0px;
+            max-width: 880px;
+            padding-right: 10px;
+
+        }
+        > .content-left-profile{
+
+            position: absolute;
+            display: block;
+            padding-top: 60px;
+
+            text-align: left;
+            bottom: 0px;
+            left: 0px;
+            // max-width: 880px;
+            padding-left: 10px;
+        }
+    }
+    &[filter-color="primary"]{
+        @include linear-gradient(rgba($primary-color, 0.7),rgba($black-color,.20));
+    }
+    &[filter-color="info"]{
+        @include linear-gradient(rgba($black-color,.20), rgba($info-color, 0.6));
+    }
+    &[filter-color="success"]{
+        @include linear-gradient(rgba($black-color,.20), rgba($success-color, 0.6));
+    }
+    &[filter-color="warning"]{
+        @include linear-gradient(rgba($black-color,.20), rgba($warning-color, 0.6));
+    }
+    &[filter-color="danger"]{
+        @include linear-gradient(rgba($black-color,.20), rgba($danger-color, 0.6));
+    }
+    .h1-seo{
+        // font-family: 
+    }
+}
+
+.section-story-overview{
+	&.image-right{
+        img{
+            z-index: 2;
+        }
+    }
+    &.image-left{
+        img{
+            z-index: 1;
+        }
+    }
+    img{
+        width: 100%;
+        left: 0;
+        top: 0;
+        height: auto;
+        position: absolute;
+    }
+
+}
+
+
+[data-background-color="primary"]{
+    background-color: $primary-color;
+}
+[data-background-color="black"]{
+    background-color: $black-primary;
+}
+[data-background-color="info"]{
+    background-color: $info-color;
+}
+[data-background-color="success"]{
+    background-color: $success-color;
+}
+[data-background-color="warning"]{
+    background-color: $warning-color;
+}
+[data-background-color="danger"]{
+    background-color: $danger-color;
+}
+[data-background-color]{
+    color: $white-color;
+
+
+
+    

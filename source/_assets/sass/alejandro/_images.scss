@@ -1,0 +1,27 @@
+img.profileImage{
+	// width: 380px;
+    max-width: -webkit-fill-available;
+    max-height: -webkit-fill-available;
+}
+.unsplash_badge{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 4px 6px;
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.2;
+    display: inline-block;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+a:hover > .unsplash_badge,a:focus > .unsplash_badge{
+	color: white;
+}
+.image-container{
+    background-size: cover;
+    background-position: bottom center ;
+}
