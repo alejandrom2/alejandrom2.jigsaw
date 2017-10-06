@@ -1,0 +1,171 @@
+.info {
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 70px 0 30px;
+    text-align: center;
+}
+
+.info.info-hover .info-title {
+    transition: color .4s;
+}
+
+.info.info-hover:hover .icon {
+    -webkit-transform: translate3d(0, -0.5rem, 0);
+    -moz-transform: translate3d(0, -0.5rem, 0);
+    -o-transform: translate3d(0, -0.5rem, 0);
+    -ms-transform: translate3d(0, -0.5rem, 0);
+    transform: translate3d(0, -0.5rem, 0);
+}
+
+.info.info-hover:hover .icon.icon-primary.icon-circle {
+    box-shadow: 0px 15px 30px 0px $primary-color-opacity;
+}
+
+.info.info-hover:hover .icon.icon-info.icon-circle {
+    box-shadow: 0px 15px 35px 0px $info-color-opacity;
+}
+
+.info.info-hover:hover .icon.icon-success.icon-circle {
+    box-shadow: 0px 15px 35px 0px $success-color-opacity;
+}
+
+.info.info-hover:hover .icon.icon-warning.icon-circle {
+    box-shadow: 0px 15px 35px 0px $warning-color-opacity;
+}
+
+.info.info-hover:hover .icon.icon-danger.icon-circle {
+    box-shadow: 0px 15px 35px 0px $danger-color-opacity;
+}
+
+.info.info-hover:hover .icon.icon-info+.info-title {
+    color: $info-color;
+}
+
+.info.info-hover:hover .icon.icon-warning+.info-title {
+    color: $warning-color;
+}
+
+.info.info-hover:hover .icon.icon-danger+.info-title {
+    color: $danger-color;
+}
+
+.info.info-hover:hover .icon.icon-primary+.info-title {
+    color: $primary-color;
+}
+
+.info.info-hover:hover .icon.icon-success+.info-title {
+    color: $success-color;
+}
+
+.info .icon {
+    color: #888888;
+    transition: transform .4s, box-shadow .4s;
+}
+
+.info .icon>i {
+    font-size: 3em;
+}
+
+.info .icon.icon-circle {
+    max-width: 80px;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0px 9px 35px -6px rgba(0, 0, 0, 0.3);
+    font-size: 0.7142em;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.info .icon.icon-circle i {
+    line-height: 2.7;
+}
+
+.info .info-title {
+    margin: 25px 0 15px;
+    padding: 0 15px;
+    color: #2c2c2c;
+}
+
+.info p {
+    color: #888888;
+    padding: 0 15px;
+    font-size: 1.1em;
+}
+
+.info-horizontal {
+    text-align: left !important;
+}
+
+.info-horizontal .icon {
+    float: left;
+    margin-top: 23px;
+    margin-right: 10px;
+}
+
+.info-horizontal .icon>i {
+    font-size: 2em;
+}
+
+.info-horizontal .icon.icon-circle {
+    width: 65px;
+    height: 65px;
+    max-width: 65px;
+    margin-top: 8px;
+}
+
+.info-horizontal .icon.icon-circle i {
+    display: table;
+    margin: 0 auto;
+    line-height: 3.5;
+    font-size: 1.9em;
+}
+
+.info-horizontal .description {
+    overflow: hidden;
+}
+
+.icon.icon-primary {
+    color: $primary-color;
+}
+
+.icon.icon-primary.icon-circle {
+    box-shadow: 0px 9px 30px -6px rgba(249, 99, 50, 0.3);
+}
+
+.icon.icon-info {
+    color: $info-color;
+}
+
+.icon.icon-info.icon-circle {
+    box-shadow: 0px 9px 30px -6px rgba(44, 168, 255, 0.3);
+}
+
+.icon.icon-success {
+    color: $success-color;
+}
+
+.icon.icon-success.icon-circle {
+    box-shadow: 0px 9px 30px -6px $success-color-opacity;
+}
+
+.icon.icon-warning {
+    color: $warning-color;
+}
+
+.icon.icon-warning.icon-circle {
+    box-shadow: 0px 9px 30px -6px $warning-color-opacity;
+}
+
+.icon.icon-danger {
+    color: $danger-color;
+}
+
+.icon.icon-danger.icon-circle {
+    box-shadow: 0px 9px 30px -6px $danger-color-opacity;
+}
+
+.icon.icon-white {
+    color: #FFFFFF;
+}
