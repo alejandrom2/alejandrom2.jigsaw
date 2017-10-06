@@ -115,6 +115,9 @@ p{
 .text-black{
   color: $light-black;
 }
+.text-gradient{
+  @include gradient-green;
+}
 
 .blockquote{
     border-left: none;

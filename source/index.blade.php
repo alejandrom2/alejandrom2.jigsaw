@@ -1,94 +1,126 @@
 @extends('_layouts.master')
 
 @section('body')
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
-        <div class="container">
-            <div class="navbar-translate">
-                <a class="navbar-brand" href="http://demos.creative-tim.com/now-ui-kit/index.html" rel="tooltip" title="Designed by Invision. Coded by Creative Tim" data-placement="bottom" target="_blank">
-                    Now Ui Kit
-                </a>
-                <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-bar bar1"></span>
-                    <span class="navbar-toggler-bar bar2"></span>
-                    <span class="navbar-toggler-bar bar3"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="./img/blurred-image-1.jpg">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
-                            <i class="now-ui-icons arrows-1_cloud-download-93"></i>
-                            <p>Download</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./documentation/tutorial-components.html" target="_blank">
-                            <i class="now-ui-icons files_paper"></i>
-                            <p>Components</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn btn-neutral" href="https://www.creative-tim.com/product/now-ui-kit-pro" target="_blank">
-                            <i class="now-ui-icons arrows-1_share-66"></i>
-                            <p>Upgrade to PRO</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank">
-                            <i class="fa fa-twitter"></i>
-                            <p class="d-lg-none d-xl-none">Twitter</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank">
-                            <i class="fa fa-facebook-square"></i>
-                            <p class="d-lg-none d-xl-none">Facebook</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank">
-                            <i class="fa fa-instagram"></i>
-                            <p class="d-lg-none d-xl-none">Instagram</p>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- End Navbar -->
     <div class="wrapper">
-        <div class="page-header clear-filter" filter-color="orange">
-            <div class="page-header-image" data-parallax="true" style="background-image: url('./img/header.jpg');">
-            </div>
-            <div class="container">
-                <div class="content-center brand">
-                    <img class="n-logo" src="./img/now-logo.png" alt="">
-                    <h1 class="h1-seo">Now UI Kit.</h1>
-                    <h3>A beautiful Bootstrap 4 UI kit. Yours free.</h3>
-                </div>
-                <h6 class="category category-absolute">Designed by
-                    <a href="http://invisionapp.com/" target="_blank">
-                        <img src="./img/invision-white-slim.png" class="invision-logo" />
-                    </a>. Coded by
-                    <a href="https://www.creative-tim.com" target="_blank">
-                        <img src="./img/creative-tim-white-slim2.png" class="creative-tim-logo" />
-                    </a>.</h6>
-            </div>
-        </div>
+    @include('_partials.header')
         <div class="main">
-            <div class="section section-images">
+            <div class="header-intro">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12">
-                            <div class="hero-images-container">
-                                <img src="./img/hero-image-1.png" alt="">
+                        <div class="col-md-8 ml-auto mr-auto text-center">
+                            <h2 class="title">Hello! Welcome to my site!</h2>
+                            <h4 class="description">I'm a Back-End Web Developer with three years of experience developing web applications seeking a Spring / Summer internship.</h4>
+                            <div class="separator separator-primary"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card card-raised " data-background-color="black">
+                                <div class="info">
+                                    <div class="icon icon-success ">
+                                        <i class="now-ui-icons tech_laptop gradient-text"></i>
+                                    </div>
+                                    <div class="description">
+                                        <h4 class="info-title">Were I have worked</h4>
+                                        <p>See my previous work experience.</p>
+                                        <bs3
+                                        <a href="#pablo">See Experience...</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="hero-images-container-1">
-                                <img src="./img/hero-image-2.png" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-raised" data-background-color="black">
+                                <div class="info">
+                                    <div class="icon icon-success">
+                                        <i class="fa fa-terminal gradient-text"></i>
+                                    </div>
+                                    <div class="description">
+                                        <h4 class="info-title">My Projects</h4>
+                                        <p>See some of my projects that are live, in production, or in pending release.</p>
+                                        <a href="#pablo" class="ml-3">See Projects...</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="hero-images-container-2">
-                                <img src="./img/hero-image-3.png" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-raised" data-background-color="black">
+                                <div class="info">
+                                    <div class="icon icon-success">
+                                        <i class="now-ui-icons clothes_tie-bow gradient-text"></i>
+                                    </div>
+                                    <div class="description">
+                                        <h4 class="info-title">What makes me, me</h4>
+                                        <p>Find out what makes drives me, and my passions outside code.</p>
+                                        <a href="#pablo" class="ml-3">Find out more...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="social-line social-line-big-icons social-line-black">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-2">
+                            <a href="#pablo" class="btn btn-simple btn-icon btn-footer">
+                                Email <i class="fa fa-envelope"></i>
+                            </a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#pablo" class="btn btn-simple btn-icon btn-footer">
+                                Linked<i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#pablo" class="btn btn-simple btn-icon btn-footer">
+                                Github <i class="fa fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#pablo" class="btn btn-simple btn-icon btn-footer">
+                                Phone <i class="fa fa-mobile-phone"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            @include('_partials.projects')
+            @include('_partials.work')
+            
+            <div class="section section-about-us">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 ml-auto mr-auto text-center">
+                            <h2 class="title">Hello! Welcome to my site!</h2>
+                            <h5 class="description">I'm a Back-End Web Developer with three years of experience developing web applications seeking a Spring / Summer internship.</h5>
+                        </div>
+                    </div>
+                    <div class="separator separator-primary"></div>
+                    <div class="section-story-overview">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="image-container image-left" style="background-image: url('/img/shpefamilia.webp')">
+                                    <p class="blockquote blockquote-primary">"Software innovation, like almost every other kind of innovation, requires the ability to collaborate and share ideas with other people, and to sit down and talk with customers and get their feedback and understand their needs."
+                                        <br>
+                                        <br>
+                                        <small>-Bill Gates</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 section-padding-115">
+                                <!-- First image on the right side, above the article -->
+                                <div class="image-container image-right" style="background-image: url('/img/mtech.jpeg')"></div>
+                                <h3>Leadership lives in my code. </h3>
+                                <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens with climate change. Even if the Arctic continues to be one of the fastest-warming regions of the world, it will always be plunged into bitterly cold polar dark every winter. And year-by-year, for all kinds of natural reasons, there’s huge variety of the state of the ice.
+                                </p>
+                                <p>
+                                    For a start, it does not automatically follow that a record amount of ice will melt this summer. More important for determining the size of the annual thaw is the state of the weather as the midnight sun approaches and temperatures rise. But over the more than 30 years of satellite records, scientists have observed a clear pattern of decline, decade-by-decade.
+                                </p>
+                                <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens with climate change. Even if the Arctic continues to be one of the fastest-warming regions of the world, it will always be plunged into bitterly cold polar dark every winter. And year-by-year, for all kinds of natural reasons, there’s huge variety of the state of the ice.
+                                </p>
                             </div>
                         </div>
                     </div>

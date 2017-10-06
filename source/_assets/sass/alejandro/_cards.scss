@@ -1,4 +1,4 @@
-[class*="features-"],
+[class*="header-"],
 [class*="team-"],
 [class*="projects-"],
 [class*="pricing-"],
@@ -6,7 +6,9 @@
 [class*="contactus-"] {
     padding: 80px 0;
 }
-
+.work {
+    padding: 50px 0;
+}
 
 .card a:not(.btn):not(.nav-link):not([data-toggle='collapse']) {
     text-decoration: none;
@@ -23,9 +25,11 @@
     background-position: center center;
     background-size: cover;
     text-align: center;
+    position: relative;
+
 }
 
-.card-background .card-block {
+.card-background .card-body {
     position: relative;
     z-index: 2;
     min-height: 370px;
@@ -35,11 +39,11 @@
     padding-bottom: 60px;
 }
 
-.card-background.card-background-product .card-block {
+.card-background.card-background-product .card-body {
     max-width: 400px;
 }
 
-.card-background.card-background-product .card-block .card-title {
+.card-background.card-background-product .card-body .card-title {
     margin-top: 30px;
 }
 
@@ -55,7 +59,7 @@
 .card-background .category,
 .card-background .card-description,
 .card-background small {
-    color: rgba(255, 255, 255, 0.8);
+    // color: rgba(255, 255, 255, 0.8);
 }
 
 .card-background .card-title {
@@ -76,37 +80,21 @@
     left: 0;
     top: 0;
     content: "";
-    background-color: rgba(0, 0, 0, 0.63);
+    // background-color: rgba(0, 0, 0, 0.63);
     border-radius: 0.25rem;
 }
-
-
-
-
-
-
-
 .card-fashion {
-    min-height: 500px;
+    min-height: 400px;
     border-radius: 0;
     box-shadow: none;
     margin: 0;
     display: block;
+    padding-top: 15px;
 }
 
 .card-container .card-fashion {
     width: 50%;
     float: left;
-}
-
-.card-fashion:not(.card-background) .card-title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-    width: 85%;
 }
 
 .card-fashion h4 {
@@ -131,7 +119,7 @@
     color: initial;
 }
 
-.card-fashion .card-block {
+.card-fashion .card-body {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -187,42 +175,89 @@
 .card .card-footer .stats span:first-child {
     margin-right: 30px;
 }
-.card-fashion:not(.card-background):before {
-    left: 100%;
-    top: 50%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    z-index: 2;
-    position: absolute;
-    pointer-events: none;
-    border-color: rgba(255, 255, 255, 0);
-    border-left-color: #ffffff;
-    border-width: 10px;
-    margin-top: -10px;
-}
-
-
-.card-fashion:not(.card-background):before {
-    left: 100%;
-    top: 50%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    z-index: 2;
-    position: absolute;
-    pointer-events: none;
-    border-color: rgba(255, 255, 255, 0);
-    border-left-color: #ffffff;
-    border-width: 10px;
-    margin-top: -10px;
-}
 
 .card-fashion.arrow-left:not(.card-background):before {
     right: 100%;
     border-right-color: #fff;
     left: auto;
     border-left: none;
+}
+.header-intro {
+    .separator.separator-primary{
+        @include gradient-green;
+    }
+    .card {
+    margin-top: 70px;
+    height: 290px;
+    }
+
+}
+.card .info {
+    padding: 40px 0 40px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.work .card {
+    margin-bottom: 80px;
+}
+.card-blog .row .category {
+    margin-bottom: 0;
+}
+.card-blog .card-image+.category {
+    margin-top: 20px;
+}
+.card-description ul{
+    padding-left: 0px;
+}
+.projects .card-title {
+    margin-top: 10px;
+
+}
+.card-no-shadow {
+    box-shadow: none;
+    border-radius: 0;
+    margin: 0;
+}
+.card-no-shadow:after {
+    border-radius: 0;
+}
+.card .card-title {
+    margin-top: 15px;
+    line-height: 1.25em;
+    top:15%;
+}
+.card .description{
+
+}
+.arrow-left{
+    position: absolute;
+    bottom: 50%;
+    right: 0;
+    margin-left: -30px;
+    border-right: solid white;
+    border-top: solid transparent;
+    border-bottom: 15px solid transparent;
+    z-index: 2;
+    border-width: 15px;
+    &.arrow-black{
+        border-right-color: $black-color;
+    }
+}
+.arrow-right{
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    margin-right: -30px;
+    border-left: solid white;
+    border-top: solid transparent;
+    border-bottom: 15px solid transparent;
+    z-index: 2;
+    border-width: 15px;
+    &.arrow-black{
+        border-left-color: $black-color;
+    }
+}
+.row .category{
+    padding-top: 15px;
 }

@@ -1,5 +1,7 @@
 @import 'alejandro/variables';
 @import 'now-ui-kit/mixins';
+@import "alejandro/mixins/navbar";
+@import "alejandro/mixins/variable";
 
 // Plugins CSS
 
@@ -48,8 +50,11 @@
 
 
 @import "now-ui-kit/responsive";
+@import "alejandro/responsive";
 
 
 
 // Custom SCSS
 @import "alejandro/scroller";
+@import "alejandro/info";
+@import "alejandro/backgrounds";
