@@ -1,3 +1,6 @@
+.section{
+    padding:0px;
+}
 .section-background{
     background-image: url('/img/beach.fade.jpg');
     background-image: url('/img/beach.fade.webp');
@@ -5,9 +8,10 @@
     background-position: top center; 
     min-height: 700px;
 }
-
-.section-padding-115{
-    padding-top: 115px;
+@media (min-width: 768px){
+    .section-padding-75{
+        padding-top: 75px;
+    }
 }
 .page-header{
 	.page-header-image{
@@ -110,6 +114,12 @@
 .section-story-overview {
     padding: 50px 0;
 }
+.section-story-overview .row {
+    padding: 30px 0;
+}
+// .section-story-overview  .align-items-top :first-child{
+//     padding-bottom: 60px;   
+// }
 .section-story-overview img{
     position: initial;
 }
@@ -117,7 +127,6 @@
     box-shadow: none !important;
 }
 .section-story-overview .image-container {
-    height: 520px;
     width: auto;
     position: initial;
     background-position: center center;
@@ -156,10 +165,10 @@
 }
 
 .section-story-overview p.blockquote {
-    width: 220px;
+    width: 300px;
     min-height: 180px;
     text-align: left;
-    position: absolute;
+    position: unset;
     top: 376px;
     right: 155px;
     z-index: 0;

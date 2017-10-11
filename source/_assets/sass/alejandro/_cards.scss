@@ -7,7 +7,7 @@
     padding: 80px 0;
 }
 .work {
-    padding: 50px 0;
+    padding: 50px 0 0 0;
 }
 
 .card a:not(.btn):not(.nav-link):not([data-toggle='collapse']) {
@@ -202,7 +202,7 @@
     margin-bottom: 80px;
 }
 .card-blog .row .category {
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 .card-blog .card-image+.category {
     margin-top: 20px;

@@ -2,7 +2,8 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-10">
-                <h2 class="title">My Work Experience</h2>
+                <h2 class="title"><a NAME='work'>My Work Experience</a></h2>
+                <h6 class="category text-muted"><a href="https://github.com/alejandrom2" target="_blank">See my LinkedIn <i class="fa fa-github"></i></a></h6>
                 <br>
                 <div class="card card-plain card-blog">
                     <div class="row">
@@ -13,9 +14,11 @@
                         </div>
                         <div class="col-md-7">
                             <h6 class="category text-danger"><i class="fa fa-clock-o"></i> May 2017 - August 2017</h6>
-                            <h3 class="card-title">
+                            <h3 class="card-title m-none">
                                 <a href="https://www.macys.com/">Macy's Technology</a>
                             </h3>
+                            <h6 class="category m-none">Software Engineer Intern</h6>
+                            
                             <span class="card-description">
                                 <ul>Implemented lean methodology experiments to improve the visuals and functionality of the check-out shopping experience in order to minimize cart abandonment</ul>
                                 <ul>Contributed functional code to projects using Java Spring, Node.js, and Backbone.js.</ul>
@@ -23,7 +26,7 @@
                                 <ul>Led a team of 4 software engineering interns to create a proposed software architecture and deliver a functional minimum viable product web API and mobile iOS application.</ul>
                             </span>
                             <p><i class="fa fa-map-marker"></i> San Fransisco, CA</p>
-                    </div>
+                        </div>
                     </div>
                 </div>
                 <div class="card card-plain card-blog">
@@ -37,9 +40,10 @@
                             <h6 class="category text-danger">
                                 <i class="fa fa-clock-o"></i> September 2015 - Present
                             </h6>
-                            <h3 class="card-title">
+                            <h3 class="card-title m-none">
                                 <a href="http://metalab.csun.edu/">META+LAB</a>
                             </h3>
+                            <h6 class="category">Scrum Master - Back-end Web Developer</h6>
                             <span class="card-description">
                                 <ul>Led team scrum ceremonies and communicated with a project manager and product owner ensuring a deliverable sprint scope and expected product release.</ul>
                                 <ul>Developed four applications using a PHP Framework to handle user authentication, storage of faculty class data and project details, and delivery of dynamic data to front-end developers.</ul>
