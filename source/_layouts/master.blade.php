@@ -19,6 +19,7 @@
         @yield('body')
     </body>
 <script src="js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="js/core/popper.min.js" type="text/javascript"></script>
 <script src="js/core/bootstrap.min.js" type="text/javascript"></script>
 <script src="js/now-ui-kit.js?v=1.1.0" type="text/javascript"></script>
 </html>
