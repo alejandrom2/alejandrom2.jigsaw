@@ -14,7 +14,6 @@ elixir(function(mix) {
     .copy('source/_assets/fonts','source/fonts')
     .copy('source/_assets/img','source/img')
     .copy('source/_assets/css/bootstrap.min.css','source/css')
-    .copy('source/_assets/css/demo.css','source/css')
     .sass('ui-kit.scss')
         .exec(bin.path() + ' build ' + env, ['./source/*', './source/**/*', '!./source/_assets/**/*'])
         .browserSync({
