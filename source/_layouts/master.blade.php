@@ -12,13 +12,13 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link href="./css/ui-kit.css" rel="stylesheet" />
+    <link href="css/ui-kit.css" rel="stylesheet" />
 </head>
     @include('_partials.navbar')
     <body class="index-page sidebar-collapse">
         @yield('body')
     </body>
-<script src="./js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
-<script src="./js/core/bootstrap.min.js" type="text/javascript"></script>
-<script src="./js/now-ui-kit.js?v=1.1.0" type="text/javascript"></script>
+<script src="js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="js/core/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/now-ui-kit.js?v=1.1.0" type="text/javascript"></script>
 </html>

@@ -11,7 +11,7 @@
                             <h2 class="title">Hello! Welcome to my site!</h2>
                             <h4 class="description">I'm a Back-End Web Developer with three years of experience developing web applications seeking a Spring / Summer internship.</h4>
                             <div class="separator separator-primary"></div>
-                            <a class="btn btn-round btn-lg green-gradient" href="./resume/AlejandroMartinez_Resume.pdf" target="_blank">
+                            <a class="btn btn-round btn-lg green-gradient" href="resume/AlejandroMartinez_Resume.pdf" target="_blank">
                                 <i class="now-ui-icons arrows-1_cloud-download-93"></i> Download My Resume
                             </a>
                         </div>
@@ -63,7 +63,7 @@
                     <div class="row">
                         <div class="col-12 ml-auto mr-auto text-center" style="margin: 40px 0;">
                             <h5>Currently Studying Computer Science at</h5>
-                            <img src="./img/csunBlack.png" alt="California State University, Northridge" style="width: 50%">
+                            <img src="img/csunBlack.png" alt="California State University, Northridge" style="width: 50%">
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
             @include('_partials.projects')
             @include('_partials.work')
             @include('_partials.aboutme')
-            <div class="section" style="background-image: url('./img/beach.fade.jpg'); background-size: cover; background-position: top center; min-height: 700px;">
+            <div class="section" style="background-image: url('img/beach.fade.jpg'); background-size: cover; background-position: top center; min-height: 700px;">
                 <div class="container text-center">
                     <div class="row justify-content-md-center">
                         <div class="col-md-12 col-lg-8">

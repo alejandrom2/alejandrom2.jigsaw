@@ -9,7 +9,7 @@
                     <div class="row">
                         <div class="col-md-5">
                             <div class="card-image text-center">
-                                <img class="img " src="./img/macys-tech.jpg">
+                                <img class="img " src="/img/macys-tech.jpg">
                             </div>
                         </div>
                         <div class="col-md-7">
@@ -33,7 +33,7 @@
                     <div class="row">
                         <div class="col-md-5 order-md-12">
                             <div class="card-image text-center">
-                                <img class="img img-raised rounded" src="./img/metalablogo.jpg" style="max-width: 225px;margin-bottom: 25px">
+                                <img class="img img-raised rounded" src="/img/metalablogo.jpg" style="max-width: 225px;margin-bottom: 25px">
                             </div>
                         </div>
                         <div class="col-md-7 order-md-1">

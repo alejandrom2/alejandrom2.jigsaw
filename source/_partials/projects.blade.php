@@ -19,14 +19,14 @@
                 </div>
                 <div class="col-md-7 order-1 order-md-12">
                     <a href="https://www.macys.com" target="_blank">
-                        <img class="img-project-2" src="./img/macysMac.png">
+                        <img class="img-project-2" src="img/macysMac.png">
                     </a>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-7">
                     <a href="https://www.csun.edu/faculty/beta/scholarship" target="_blank">
-                        <img class="img-project-2" src="./img/helixiPad.png">
+                        <img class="img-project-2" src="img/helixiPad.png">
                     </a>
                 </div>
                 <div class="col-md-5">
@@ -40,7 +40,7 @@
             <div class="row align-items-top">
                 <div class="col-md-6">
                     <a href="http://www.csun.edu/faculty" target="_blank">
-                        <img class="img-project-2" src="./img/macFaculty.png" style="max-height: 330px;">
+                        <img class="img-project-2" src="img/macFaculty.png" style="max-height: 330px;">
                     </a>
                     <h6 class="category gradient-text">Full Stack Web Developer</h6>
                     <a href="http://www.csun.edu/faculty" target="_blank">
@@ -49,7 +49,7 @@
                     <p>A digital listing of all faculty members on campus, allowing you to learn about their stories, degree, research interests, and current / past courses taught.</p>
                 </div>
                 <div class="col-md-6">
-                    <a href="https://github.com/csun-metalab?utf8=%E2%9C%93&q=web%20service" target="_blank"><img class="img-project-2" src="./img/githubMac.png" style="padding: 10px 0px 20px 0"></a>
+                    <a href="https://github.com/csun-metalab?utf8=%E2%9C%93&q=web%20service" target="_blank"><img class="img-project-2" src="img/githubMac.png" style="padding: 10px 0px 20px 0"></a>
                     <h6 class="category gradient-text">Scrum Master - Back-end Web Developer</h6>
                     <a href="https://github.com/csun-metalab?utf8=%E2%9C%93&q=web%20service" target="_blank"><h4 class="card-title">CSUN Web Services <i class="fa fa-github"></i></h4></a>
                     <p>

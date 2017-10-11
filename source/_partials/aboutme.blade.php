@@ -10,10 +10,10 @@
         <div class="section-story-overview">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="image-container image-left" style="background-image: url('/img/shpefamilia.webp')"></div>
+                    <div class="image-container image-left" style="background-image: url('img/shpefamilia.webp')"></div>
                 </div>
                 <div class="col-md-5 section-padding-75">
-                    <div class="image-container image-right" style="background-image: url('/img/mtech.jpeg')"></div>
+                    <div class="image-container image-right" style="background-image: url('img/mtech.jpeg')"></div>
                 </div>
             </div>
             <div class="row">
@@ -33,7 +33,7 @@
             <div class="row">
                 <div class="col-md-5">
                     <div class="card-image text-center">
-                        <img class="img " src="./img/shpecsun.png" style="height: 300px;width: auto">
+                        <img class="img " src="img/shpecsun.png" style="height: 300px;width: auto">
                     </div>
                 </div>
                 <div class="col-md-7">
