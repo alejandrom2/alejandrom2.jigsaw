@@ -33,7 +33,7 @@
             <div class="row">
                 <div class="col-md-5">
                     <div class="card-image text-center">
-                        <img class="img " src="img/shpecsun.png" style="height: 300px;width: auto">
+                        <img class="img " src="/img/shpecsun.png" style="height: 300px;width: auto">
                     </div>
                 </div>
                 <div class="col-md-7">

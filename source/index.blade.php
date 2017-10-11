@@ -63,7 +63,7 @@
                     <div class="row">
                         <div class="col-12 ml-auto mr-auto text-center" style="margin: 40px 0;">
                             <h5>Currently Studying Computer Science at</h5>
-                            <img src="img/csunBlack.png" alt="California State University, Northridge" style="width: 50%">
+                            <img src="/img/csunBlack.png" alt="California State University, Northridge" style="width: 50%">
                         </div>
                     </div>
                 </div>

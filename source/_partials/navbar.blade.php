@@ -10,7 +10,7 @@
                 <span class="navbar-toggler-bar bar3"></span>
             </button>
         </div>
-        <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="img/blurred-image-1.jpg">
+        <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="/img/blurred-image-1.jpg">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="resume/AlejandroMartinez_Resume.pdf" target="_blank">
